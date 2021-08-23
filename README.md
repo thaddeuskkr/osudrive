@@ -1,7 +1,11 @@
 # osu!drive
 **A simple application, in Node.js, to help to manage multiple osu! profiles when running on one drive.**  
-  
-### DISCLAIMER  
+
+### Download
+To download osu!drive, check the [Releases](https://github.com/thaddeuskkr/osudrive/releases) page.  
+This application currently only supports Windows, and binaries are already pre built.
+
+### DISCLAIMER
 **I am not promoting multi accounting.**  
 The entire reason why I set up this project is because I wanted to run osu! off a thumbdrive, and needed a way to manage my friends' accounts and allow switching between computers quickly as osu! names their configuration files after the computer user's name. This program does all of that with a beautiful command line interface.  
 
