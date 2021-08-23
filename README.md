@@ -5,6 +5,16 @@
 To download osu!drive, check the [Releases](https://github.com/thaddeuskkr/osudrive/releases) page.  
 This application currently only supports Windows, and binaries are already pre built.
 
+### Directory structure
+```
+.
+├── osu!drive.exe             # The exe file that you downloaded
+└── osu!                      # Your osu! directory, with the osu! executable inside and a profile already set up.
+    ├── osu!.exe              # osu! executable
+    └── osu!.thaddeuskkr.cfg  # osu! configuration that is already set up,
+                              # can be duplicated to manage multiple profiles
+```
+
 ### DISCLAIMER
 **I am not promoting multi accounting.**  
 The entire reason why I set up this project is because I wanted to run osu! off a thumbdrive, and needed a way to manage my friends' accounts and allow switching between computers quickly as osu! names their configuration files after the computer user's name. This program does all of that with a beautiful command line interface.  
