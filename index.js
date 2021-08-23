@@ -74,6 +74,7 @@ rl.question(chalk.magenta('[INPUT] ') + `Which profile would you like to use? ($
             }
         });
         child.on('exit', (code) => {
+            if (code == 0) return process.exit();
             log(2, 'osu! exited with exit code ' + code + '. Press enter to exit.');
             rl.question('', () => {
                 process.exit();
