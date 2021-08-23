@@ -1,0 +1,10 @@
+{
+  "name": "profile",
+  "dependencies": {
+    "chalk": "^4.1.2"
+  },
+  "bin": "index.js",
+  "pkg": {
+    "targets": ["node16-win-x64"]
+  }
+}
