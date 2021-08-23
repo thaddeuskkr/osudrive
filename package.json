@@ -9,6 +9,11 @@
   },
   "bin": "index.js",
   "pkg": {
-    "targets": ["node16-win-x64"]
+    "targets": [
+      "node16-win-x64"
+    ]
+  },
+  "devDependencies": {
+    "pkg": "^5.3.1"
   }
 }
