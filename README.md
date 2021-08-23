@@ -21,6 +21,10 @@ The entire reason why I set up this project is because I wanted to run osu! off 
 
 ### Security  
 - osu! stores your hashed passwords in plaintext in configuration files. This program does not save any of these files, but only reads them to make it easier for management.  
+- This error pops up on the first time you launch the app.  
+![image](https://user-images.githubusercontent.com/49682825/130479012-2841567c-6f52-48c5-b691-dae463c71ef3.png)  
+Take note that the file is perfectly safe, and you can check the source code to verify it yourself.  
+**To bypass this error, just click `More info` and click `Run anyway`.**  
 
 ### Open source  
 - You are free to use this program however you want, as long as you abide by the license stated in the LICENSE file (GPL-3.0).  
