@@ -84,8 +84,9 @@ rl.question(chalk.magenta('[INPUT] ') + `Which profile would you like to use? ($
     fs.renameSync(`./osu!/${selected.fileName}`, `./osu!/osu!.${account}.cfg`);
     log(0, 'Renamed profile to use.');
     log(1, 'Done! Press enter to launch osu! or use CTRL + C to exit now.');
-    const directory = process.execPath.split('\\');
+    let directory = process.execPath.split('\\');
     directory.pop();
+    directory = directory.join('\\');
     rl.question('', () => {
         console.clear();
         log(2, chalk.bgRed(chalk.white('DO NOT CLOSE THIS CONSOLE WINDOW!')));
