@@ -37,41 +37,6 @@ async function osuDrive () {
         array.push({ account: username, fileName: files[i] });
     }
 
-    /*
-
-if (array.length == 1) {
-    log(1, `Using profile ${chalk.bold(chalk.magenta(array[0].account))}`);
-    fs.renameSync(`./osu!/${array[0].fileName}`, `./osu!/osu!.${account}.cfg`);
-    log(0, 'Renamed config file for user ' + account + '.');
-    log(1, 'Done! Press enter to launch osu! or use CTRL + C to exit now.');
-    const directory = process.execPath.split('\\');
-    directory.pop();
-    rl.question('', () => {
-        console.clear();
-        log(2, chalk.bgRed(chalk.white('DO NOT CLOSE THIS CONSOLE WINDOW!')));
-        log(2, `Selected profile: ${chalk.bold(chalk.magenta(array[0].account))}`);
-        log(2, 'Launching osu!...');
-        const child = exec(`${directory}\\osu!\\osu!.exe`, async (err) => { // Not handled: stdout, stderr
-            if (err) {
-                log(3, 'Coult not start osu!.');
-                log(3, err);
-                return;
-            }
-        });
-        child.on('exit', (code) => {
-            if (code == 0) return process.exit();
-            log(2, 'osu! exited with exit code ' + code + '. Press enter to exit.');
-            rl.question('', () => {
-                process.exit();
-                return;
-            });
-        });
-        return;
-    });
-    return;
-}
-
-*/
     log(1, 'Found the following configuration files:');
     if (files.length < 1) {
         log(1, chalk.red('No configuration files found. Type n or new to make a new profile.'));
