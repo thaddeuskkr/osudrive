@@ -1,6 +1,6 @@
 # osu!drive
 **A simple application, in Node.js, to help to manage multiple osu! profiles when running on one drive.**  
-This can also be used for other osu! servers, as osu! only uses one file for their game configuration. This allows you to easily switch between Bancho and other servers, without having to re-enter your username and password every time.
+This can also be used for other osu! servers, as osu! only uses one file for their game configuration. This allows you to easily switch between Bancho and other servers, without having to re-enter your username and password every time.  
 
 ### Features
 - New profile creation (based on osu!'s default settings)
@@ -14,7 +14,8 @@ This can also be used for other osu! servers, as osu! only uses one file for the
 
 ### Download
 To download osu!drive, check the [Releases](https://github.com/thaddeuskkr/osudrive/releases) page.  
-This application currently only supports Windows, and binaries are already pre built.
+This application currently only supports Windows, and binaries are already pre built.  
+Once downloaded, just move the exe to the directory outside of your osu! install directory (usually `%localappdata%`) and either create a shortcut to it on your desktop or just run it from there.  
 
 ### Directory structure
 ```
