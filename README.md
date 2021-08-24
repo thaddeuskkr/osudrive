@@ -9,6 +9,7 @@ This can also be used for other osu! servers, as osu! only uses one file for the
 - Beautiful command line interface
 - Open source and secure (exe not digitally signed however)
 - Relatively small file size (only one executable, ~32.5MB)
+- No extra dependencies or installation required
 - Runs fast
 
 ### Download
