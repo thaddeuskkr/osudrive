@@ -1,5 +1,15 @@
 # osu!drive
 **A simple application, in Node.js, to help to manage multiple osu! profiles when running on one drive.**  
+This can also be used for other osu! servers, as osu! only uses one file for their game configuration. This allows you to easily switch between Bancho and other servers, without having to re-enter your username and password every time.
+
+### Features
+- New profile creation (based on osu!'s default settings)
+- Profile deletion
+- Multiple server support (passes arguments to osu!, therefore `-devserver` is passed)
+- Beautiful command line interface
+- Open source and secure (exe not digitally signed however)
+- Relatively small file size (only one executable, ~32.5MB)
+- Runs fast
 
 ### Download
 To download osu!drive, check the [Releases](https://github.com/thaddeuskkr/osudrive/releases) page.  
